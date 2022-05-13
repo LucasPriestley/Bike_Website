@@ -1,0 +1,189 @@
+@import url(https://fonts.googleapis.com/css2?family=Water+Brush&display=swap);
+
+@import url(https://fonts.google.com/share?selection.family=Faster%20One);
+
+h1 {
+    color: maroon;
+    font-family: 'Water Brush', cursive;
+    font-size: 70px;
+    text-shadow: -1px 1px 0 rgb(255, 255, 255),
+                          1px 1px 0 rgb(255, 255, 255),
+                         1px -1px 0 rgb(255, 255, 255),
+                        -1px -1px 0 rgb(255, 255, 255);
+
+    
+}
+
+h2 {
+    color: wheat;
+    background-color: rgba(167, 17, 17, 0.6);
+    border: 2px;
+    padding: 10px;
+    margin: 15px;
+    display: inline-block;
+    border-radius: 4px;
+    text-shadow: -1px 1px 0 rgb(0, 0, 0),
+                          1px 1px 0 rgb(0, 0, 0),
+                         1px -1px 0 rgb(0, 0, 0),
+                        -1px -1px 0 rgb(0, 0, 0);
+} 
+
+/*-----------------------------------nav bar-------------------------------------------------*/
+
+.nav {
+    border-radius: 5px;
+    background-color: rgba(119, 117, 117, 0.6);
+    padding: 10px;
+    margin-left: 1em;
+    float: left;
+    display: flex;
+    flex-direction: row;
+    text-shadow: -1px 1px 0 rgb(0, 0, 0),
+                          1px 1px 0 rgb(0, 0, 0),
+                         1px -1px 0 rgb(0, 0, 0),
+                        -1px -1px 0 rgb(0, 0, 0);
+        
+    
+}
+
+#text {
+    text-shadow: -1px 1px 0 rgb(144, 0, 0),
+                          1px 1px 0 rgb(144, 0, 0),
+                         1px -1px 0 rgb(144, 0, 0),
+                        -1px -1px 0 rgb(144, 0, 0);
+}
+
+.button {
+    font-size: 30px;
+    background-color: maroon;
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    
+  }
+
+#a :hover {
+    background-color: blue;
+}
+/* --------------------------------------backgrounds------------------------------------------ */
+
+/* index background */
+.background1 {
+    background-image: url(images/honda-cbr1000rr-r-fireblade-sp.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+/* bikes background */
+.background2 {
+    background-image: url(images/track.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+/* contact background */
+.backgroundc {
+    background-image: url(images/bike_stand.jpg);
+    background-position: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+/* -------------------------------------------------------------------------------------------- */
+
+
+
+.para1 {
+    color: whitesmoke;
+    font-size: 17px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border: 2px;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 15px;
+    display: inline-block;
+    text-shadow: -1px 1px 0 rgb(144, 0, 0),
+                          1px 1px 0 rgb(144, 0, 0),
+                        1px -1px 0 rgb(144, 0, 0),
+                    -1px -1px 0 rgb(144, 0, 0);
+   
+}
+
+.vid {
+    color: whitesmoke;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border: 2px;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 15px;
+    display: inline-block;
+   
+}
+
+
+/*--------------------------------bikes-----------------------------------------------*/
+
+.img {
+    margin-left: 1em;
+    
+}
+
+#vid {
+    text-align: right;
+}
+
+
+/*--------------------------------contact--------------------------------------------*/
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid wheat;
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: maroon;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a blue color */
+  input[type=submit]:hover {
+    background-color: blue;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    color: maroon;
+    border-radius: 5px;
+    background-color: rgba(119, 117, 117, 0.6);
+    padding: 20px;
+    margin-left: 1em;
+    
+  }
+
